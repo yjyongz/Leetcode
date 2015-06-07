@@ -3,7 +3,7 @@
         <delete dir="build"/>
     </target>
 
-    <target name="compile">
+    <target name="test">
         <mkdir dir="build/classes"/>
         <javac srcdir="count_complete_tree_node" destdir="build/classes"/>
     </target>
