@@ -6,5 +6,6 @@
     <target name="test">
         <mkdir dir="build/classes"/>
         <javac srcdir="count_complete_tree_node" destdir="build/classes"/>
+        <javac srcdir="findkthlargest" destdir="build/classes"/>
     </target>
 </project>
